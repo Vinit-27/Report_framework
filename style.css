@@ -1,16 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 h2{
     margin: 10px;
     padding: 10px;
 }
-.datatable {
-    margin: 20px;
-    padding: 10px;
-    border: 5px solid black;
-}
-.datatable > th{
-    padding: 10px;
-}
+
+
+#employee {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #Employee td, #Employee th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #Employee tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #Employee tr:hover {background-color: #ddd;}
+  
+  #Employee th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
